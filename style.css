@@ -1,0 +1,33 @@
+/*this is for the nav bar*/
+ul {
+    font-size: 3em;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+nav {
+text-align: center;
+}
+/*end of navbar stuff*/
+
+.wrapper {
+    text-align: center;
+}
