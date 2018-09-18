@@ -24,8 +24,36 @@
 </nav>
 
 <main>
- <h2>This is for accounts..</h2>
-    <p>You got credit cards? Savings? 401k? Well that's like 100% really cool.</p>
+ <h2>Hello John Smith.</h2>
+    <p>Here are your accounts: </p>
+    <ul style="list-style-type:none">
+      <li>Checking ending in XX2234</li>
+      <li>Checking ending in XX7292</li>
+      <li>Savings ending in XX3220</li>
+      <li>MasterCard ending in XX1221</li>
+      <li>AMEX ending in XX1892</li>
+      <li>Student Loan ending in XX9982</li>
+      <li>Private Loan ending in XX2211</li>
+    </ul>
+  
+  <div>
+    <h3>Add another account:</h3>
+    <input type="radio" name="AccountType" value="Credit Card"> Credit Card 
+    <br>
+    <input type="radio" name="AccountType" value="Checking"> Checking 
+    <br>
+    <input type="radio" name="AccountType" value="Savings"> Savings 
+    <br>
+    <input type="radio" name="AccountType" value="Loan"> Loan 
+    <br>
+  </div>
+
+  <div>
+    <form action="/action_page.php">
+    Account Number: <input type="text" name="anumber"><br>
+    <button type="button">Add Account</button>
+    </form>
+  </div>
 
 </main>
 
